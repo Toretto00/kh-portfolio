@@ -39,10 +39,10 @@ function MainPage() {
             <About />
             <Works />
             <Services />
-            <ProcessParagraph/>
+            <ProcessParagraph />
             <ProcessTransition />
-            <Process/>
-            <FooterTransition/>
+            <Process />
+            <FooterTransition />
           </main>
           <Footer />
         </div>
