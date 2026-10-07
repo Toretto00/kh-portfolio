@@ -122,7 +122,7 @@ function Hero() {
             animate="animate"
             className=""
           >
-            <Header1 text="John" />
+            <Header1 text="Kim Hang" />
           </motion.div>
         </div>
         <div className="overflow-hidden">
@@ -132,7 +132,7 @@ function Hero() {
             animate="animate"
             className=""
           >
-            <Header1 text="Mitchell" />
+            <Header1 text="Tran" />
           </motion.div>
         </div>
       </div>
@@ -142,7 +142,7 @@ function Hero() {
         animate="animate"
         className="flex justify-center items-center md:justify-end gap-[5em] xs:gap-[8em] mt-5 md:pr-[6em]"
       >
-        <Header6 text="Frontend Developer" />
+        <Header6 text="Overstack Developer" />
         <Header6 text="UI Designer" />
       </motion.div>
       <div className="mt-6 flex flex-col-reverse md:flex-row gap-[8vw] items-start">
@@ -180,7 +180,7 @@ function Hero() {
           >
             <div className="w-[80%] xs:w-full">
               <div className="w-[90%] sm:w-[80%] md:w-[60%]">
-                <Paragraph text="My full stack development and design expertise allows me to build projects from the ground up, transforming ideas into powerful, user-centric solutions that elevate my clients&apos; brands and drive their success." />
+                <Paragraph text="My over-stack development and design expertise allows me to build projects from the ground up, transforming ideas into powerful, user-centric solutions that elevate my clients&apos; brands and drive their success." />
               </div>
               <div className="mt-3">
                 <MainButton text="Learn More" link="/about" />

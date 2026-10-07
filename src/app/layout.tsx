@@ -6,9 +6,9 @@ import LenisScroll from "@/components/LenisScroll";
 import Scroll from "@/components/Scroll";
 
 export const metadata: Metadata = {
-  title: "Cim Hang Tran",
+  title: "kimhanggg",
   description:
-    "This portfolio highlights CimHang's life, interests, and skills.",
+    "This portfolio highlights kimhanggg's life, interests, and skills.",
 };
 
 export default function RootLayout({

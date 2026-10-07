@@ -2,9 +2,9 @@ import React from "react";
 import Header3 from "../Header3";
 
 function AboutMe() {
-  const line1 = "I'm John Mitchell"
-  const line2 = "full stack developer with a focus"
-  const line3 = "on frontend technologies"
+  const line1 = "I'm Kim Hang"
+  const line2 = "Over-stack developer with a focus"
+  const line3 = "on social media"
   const line4 = "combined with a passion for"
   const line5 = "user interface design and other"
   const line6 = "design mediums that allow me"
@@ -18,14 +18,14 @@ function AboutMe() {
           About me
         </p>
         <div className="flex-1">
-          <Header3 phrase={line1} className="indent-[10%]"/>
-          <Header3 phrase={line2}/>
-          <Header3 phrase={line3}/>
-          <Header3 phrase={line4}/>
-          <Header3 phrase={line5}/>
-          <Header3 phrase={line6}/>
-          <Header3 phrase={line7}/>
-          <Header3 phrase={line8}/>
+          <Header3 phrase={line1} className="indent-[10%]" />
+          <Header3 phrase={line2} />
+          <Header3 phrase={line3} />
+          <Header3 phrase={line4} />
+          <Header3 phrase={line5} />
+          <Header3 phrase={line6} />
+          <Header3 phrase={line7} />
+          <Header3 phrase={line8} />
         </div>
       </div>
     </section>

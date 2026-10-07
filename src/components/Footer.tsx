@@ -8,28 +8,32 @@ import { motion, useInView, easeInOut } from "framer-motion";
 function Footer() {
   const lineRef = useRef(null);
   const line = useInView(lineRef, { once: true });
+  const myEmail = process.env.NEXT_PUBLIC_EMAIL;
+  const gitHub = process.env.NEXT_PUBLIC_GITHUB;
+  const linkedIn = process.env.NEXT_PUBLIC_LINKEDIN;
+  const instagram = process.env.NEXT_PUBLIC_INSTAGRAM;
 
   const links = [
     {
       title: "email",
-      href: "mailto:rutagandasalim@gmail.com",
+      href: `mailto:${myEmail}`,
     },
     {
       title: "github",
-      href: "https://github.com/rutaganda-salim",
+      href: `${gitHub}`,
     },
     {
       title: "linkedIn",
-      href: "https://www.linkedin.com/in/salimrutaganda/",
+      href: `${linkedIn}`,
     },
     {
       title: "instagram",
-      href: "https://www.instagram.com/salimnunez01/",
+      href: `${instagram}`,
     },
-    {
-      title: "behance",
-      href: "https://www.behance.net/",
-    },
+    // {
+    //   title: "behance",
+    //   href: "https://www.behance.net/",
+    // },
   ];
 
   const line1 = "Any questions? Interested";
@@ -141,7 +145,7 @@ function Footer() {
               text="Email Me"
               fontSize="text-[16px]"
               classNameWidth="w-full sm:w-[45%] lg:w-[12em]"
-              email="jmaduafokwa@hotmail.com"
+              email={myEmail}
             />
           </motion.div>
         </div>
@@ -159,7 +163,7 @@ function Footer() {
               Design & Development
             </p>
             <p className="text-[14px] text-lightText dark:text-darkText">
-              John Mitchell
+              Toretto
             </p>
           </div>
           <div>
@@ -167,7 +171,7 @@ function Footer() {
               Based In
             </p>
             <p className="text-[14px] text-lightText dark:text-darkText">
-              Rwanda and RCA
+              Ho Chi Minh city
             </p>
           </div>
         </motion.div>
@@ -185,7 +189,7 @@ function Footer() {
         </motion.div>
       </div>
       <motion.div className="mt-3 flex justify-center md:justify-start">
-        <p className="text-[12px]">All Rights Reserved &copy; 2024</p>
+        <p className="text-[12px]">All Rights Reserved &copy; 2026</p>
       </motion.div>
     </footer>
   );

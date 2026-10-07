@@ -35,7 +35,7 @@ function Navbar() {
           {/* JASMINE'S INITIAL LOGO */}
           <Link href={"/"}>
             <p className={`${rigata.className} text-[3em] 2xl:text-[5em] tracking-tighter`}>
-              JM
+              kimhanggg
             </p>
           </Link>
           {/* DARK MODE/LIGHT MODE TOGGLE */}
